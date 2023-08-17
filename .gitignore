@@ -3,10 +3,9 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-
 pom.xml
 ### IntelliJ IDEA ###
-.idea/*
+.idea/
 *.iws
 *.iml
 *.ipr
