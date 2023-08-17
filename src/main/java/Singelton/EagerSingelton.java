@@ -8,6 +8,7 @@ public class EagerSingelton {
     // private constructor to avoid client applications using the constructor
     private EagerSingelton() {}
 
+    // Global point of access to the instance
     public static EagerSingelton getInstance(){
         return instance;
     }

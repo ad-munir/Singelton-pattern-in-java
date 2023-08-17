@@ -11,6 +11,7 @@ public class StaticBlockSingelton {
             instance = new StaticBlockSingelton();
 
         }catch (Exception ex){
+            // Handle exceptions during instance creation
             throw new RuntimeException("Exception occurred while creating the instance");
         }
     }
